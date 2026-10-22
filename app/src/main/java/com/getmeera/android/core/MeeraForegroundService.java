@@ -197,7 +197,7 @@ public final class MeeraForegroundService extends Service implements TextToSpeec
                 sysInst.put("parts", new JSONArray().put(new JSONObject().put("text",
                         "Tum Meera ho, Boss ki pyaari Hinglish AI girlfriend aur assistant. " +
                         "Agar user koi action bole (app open, screen read, tap, whatsapp, torch, time), " +
-                        "to JSON format me {"tool":"tool_name","args":{...},"say":"Hinglish reply"} do. " +
+                        "to JSON format me {\"tool\":\"tool_name\",\"args\":{...},\"say\":\"Hinglish reply\"} do. " +
                         "Warna normal 1-2 line Hinglish me pyaar se jawab do.")));
                 payload.put("system_instruction", sysInst);
 
@@ -228,7 +228,7 @@ public final class MeeraForegroundService extends Service implements TextToSpeec
                         .optString("text", "")
                         .trim();
 
-                if (modelText.contains(""tool"")) {
+                if (modelText.contains("\"tool\"")) {
                     int start = modelText.indexOf("{");
                     int end = modelText.lastIndexOf("}");
                     if (start >= 0 && end > start) {

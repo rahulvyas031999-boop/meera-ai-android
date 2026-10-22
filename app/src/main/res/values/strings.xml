@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meera AI</string>
+    <string name="accessibility_service_description">Meera uses this to control apps for you — like sending WhatsApp messages, making WhatsApp calls, playing YouTube videos and reading your screen when you ask her to. Meera only acts on your voice commands.</string>
+    <string name="notification_channel_name">Meera 24/7 Voice Session</string>
+    <string name="notification_listener_label">Meera WhatsApp &amp; Notification Reader</string>
+    <string name="wallpaper_description">Meera herself on your home screen. She breathes, listens when you talk to her, and reacts when you tap her.</string>
+    <string name="wallpaper_label">Meera AI Live Orb</string>
+</resources>

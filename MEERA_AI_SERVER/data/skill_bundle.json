@@ -1,0 +1,117 @@
+{
+  "version": 6,
+  "free_tools": "*",
+  "tools": [
+    {
+      "name": "open_app_by_name",
+      "description": "Phone me kisi bhi app ko naam se kholo (e.g. WhatsApp, YouTube, Instagram, Settings)",
+      "params": [
+        "name"
+      ]
+    },
+    {
+      "name": "tap_text",
+      "description": "Screen par dikhne wale text ya button label par tap/click karo",
+      "params": [
+        "text",
+        "_optional"
+      ]
+    },
+    {
+      "name": "tap_coordinates",
+      "description": "Screen ke (x, y) coordinates par tap karo",
+      "params": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "type_text",
+      "description": "Active input box me text type karo",
+      "params": [
+        "text"
+      ]
+    },
+    {
+      "name": "wait",
+      "description": "Diye gaye seconds tak wait karo",
+      "params": [
+        "seconds"
+      ]
+    },
+    {
+      "name": "wait_for_screen_text",
+      "description": "Screen par kisi text ke aane (appear) ya hatne (disappear) ka wait karo",
+      "params": [
+        "text",
+        "mode",
+        "timeout_seconds"
+      ]
+    },
+    {
+      "name": "read_screen_text",
+      "description": "Poori screen ka accessibility text padho",
+      "params": []
+    },
+    {
+      "name": "go_back",
+      "description": "Android Back button press karo",
+      "params": []
+    },
+    {
+      "name": "whatsapp_send_message",
+      "description": "WhatsApp par kisi contact ya number ko message bhejo",
+      "params": [
+        "contact",
+        "message"
+      ]
+    },
+    {
+      "name": "reply_to_voice_note",
+      "description": "Haal hi me aaye WhatsApp message/voice note ka direct notification reply bhejo",
+      "params": [
+        "reply_text"
+      ]
+    },
+    {
+      "name": "record_macro",
+      "description": "Naya task macro record karna shuru karo",
+      "params": [
+        "task_name"
+      ]
+    },
+    {
+      "name": "save_macro",
+      "description": "Chal rahi macro training ko save karo",
+      "params": [
+        "task_name"
+      ]
+    },
+    {
+      "name": "undo_last_step",
+      "description": "Macro training ka aakhri step undo karo",
+      "params": []
+    },
+    {
+      "name": "smart_home_control",
+      "description": "Smart home devices (light, fan, AC, TV, torch) ko on/off/control karo",
+      "params": [
+        "target",
+        "action",
+        "value"
+      ]
+    },
+    {
+      "name": "get_current_time",
+      "description": "Abhi ka current time aur date batao",
+      "params": [
+        "timezone"
+      ]
+    },
+    {
+      "name": "go_to_sleep",
+      "description": "Active voice session ko standby/sleep mode me bhejo",
+      "params": []
+    }
+  ]
+}

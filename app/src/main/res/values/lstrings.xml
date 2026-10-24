@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meera</string>
+    <string name="accessibility_desc">Meera UI assistant service</string>
+    <string name="wallpaper_desc">Meera interactive live avatar</string>
+</resources>
